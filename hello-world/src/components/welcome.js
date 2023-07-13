@@ -5,7 +5,7 @@ class Welcome extends Component {
     const { name, heroName } = this.props;
     return (
       <h1>
-        welcome the king {name} and {heroName}
+        welcome the {name} and {heroName}
       </h1>
     );
   }
