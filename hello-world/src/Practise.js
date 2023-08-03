@@ -7,6 +7,7 @@ class Practise extends Component {
     this.state = {
       name: "helloooo",
       count: 0,
+      loggedIn: false,
     };
     this.changeMessage = this.changeMessage.bind(this);
   }
